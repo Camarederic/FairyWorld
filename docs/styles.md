@@ -1,0 +1,5 @@
+Fairy
+Steampunk
+Medieval
+Cyberpunk
+Military
