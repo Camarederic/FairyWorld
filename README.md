@@ -1,8 +1,6 @@
 #FairyWorld
 
-FairyWorld is a mobile app with augmented reality.
-
-The project's idea is to transform the ordinary world around us into a fairytale one using a phone camera, augmented reality technology, and artificial intelligence.
+FairyWorld is a mobile app that uses artificial intelligence and a phone's camera to stylize the real world in a chosen artistic direction (for example, Fairy, Steampunk, or Medieval), preserving real objects and their locations.
 
 ## Project Status
 

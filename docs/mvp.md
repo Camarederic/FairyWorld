@@ -1,0 +1,1 @@
+The user opens the phone's camera and sees a magical tree, a fairytale castle, a carriage, etc. over the image.
