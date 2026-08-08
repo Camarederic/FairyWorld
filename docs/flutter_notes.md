@@ -1,6 +1,5 @@
-Что понял
-------------
-- main.dart — main application file.
-- lib - contains code.
-- pubspec.yaml - similar to requirements.txt in Python.
-- Flutter uses widgets.
+Flutter project
+- lib/main.dart — main application file
+- pubspec.yaml — project settings and dependencies
+- flutter run -d chrome — launching the application in Chrome
+- Hot Reload — quickly update the application after changing the code
