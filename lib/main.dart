@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'style_selection_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text('Welcome to FairyWorld'),
 
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const StyleSelectionPage(),
+                  ),
+                );
+              },
               child: const Text('Выбрать стиль'),
             ),
           ],
