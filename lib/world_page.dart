@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'ar_page.dart';
 
 class WorldPage extends StatefulWidget {
   final String style;
@@ -39,19 +40,26 @@ class _WorldPageState extends State<WorldPage> {
   }
 
   void createWorld() {
-    final description = descriptionController.text.trim();
+  final description = descriptionController.text.trim();
 
-    if (description.isEmpty) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text('Сначала опиши свой мир')));
-      return;
-    }
-
+  if (description.isEmpty) {
     ScaffoldMessenger.of(
       context,
-    ).showSnackBar(SnackBar(content: Text('Создаём мир: $description')));
+    ).showSnackBar(
+      const SnackBar(
+        content: Text('Сначала опиши свой мир'),
+      ),
+    );
+    return;
   }
+
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => const ARPage(),
+    ),
+  );
+}
 
   @override
   void dispose() {
